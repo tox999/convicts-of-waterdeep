@@ -1,16 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.14)  18 JUN 2024 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.14)  18 JUN 2024 09:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**./convicts-quest.tex
-(convicts-quest.tex
+**./example.tex
+(example.tex
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/etex-pkg\etex.sty
-Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
-\et@xins=\count194
-)
 (dndbook.cls
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-05-27 L3 programming layer (loader) 
@@ -18,7 +14,7 @@ Package: expl3 2024-05-27 L3 programming layer (loader)
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count195
+\l__color_backend_stack_int=\count194
 \l__pdf_internal_box=\box52
 ))
 Document Class: dndbook 2019/07/18 v0.7.1  Template for DnD 5e material 
@@ -28,13 +24,10 @@ eys2e.sty
 Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
 )
 
-Package dnd Info: Unknown option "10pt" passed to book class.
+Package dnd Info: Unknown option "letterpaper" passed to book class.
 
 
-Package dnd Info: Unknown option "onecolumn" passed to book class.
-
-
-Package dnd Info: Unknown option "twoside" passed to book class.
+Package dnd Info: Unknown option "twocolumn" passed to book class.
 
 
 Package dnd Info: Unknown option "openany" passed to book class.
@@ -45,16 +38,15 @@ Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
 File: bk10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count196
-\c@chapter=\count197
-\c@section=\count198
-\c@subsection=\count199
-Normal \count register pool exhausted, switching to extended pool.
-\c@subsubsection=\count277
-\c@paragraph=\count278
-\c@subparagraph=\count279
-\c@figure=\count280
-\c@table=\count281
+\c@part=\count195
+\c@chapter=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
@@ -88,7 +80,7 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 )
 \everycr=\toks18
 \minrowclearance=\skip53
-\rownum=\count282
+\rownum=\count270
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
@@ -97,12 +89,12 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen144
 \enit@toks=\toks20
 \enit@inbox=\box55
-\enit@count@id=\count283
-\enitdp@description=\count284
+\enit@count@id=\count271
+\enitdp@description=\count272
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count285
+\etb@tempcnta=\count273
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
@@ -118,10 +110,10 @@ Package: hang 2017/02/18 v2.1 Hanging paragraphs and list items
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/numprint\numprint.sty
 Package: numprint 2012/08/20 v1.39 Print numbers (HH)
-\c@nprt@mantissa@digitsbefore=\count286
-\c@nprt@mantissa@digitsafter=\count287
-\c@nprt@exponent@digitsbefore=\count288
-\c@nprt@exponent@digitsafter=\count289
+\c@nprt@mantissa@digitsbefore=\count274
+\c@nprt@mantissa@digitsafter=\count275
+\c@nprt@exponent@digitsbefore=\count276
+\c@nprt@exponent@digitsafter=\count277
 \nprt@digitwidth=\skip58
 \nprt@sepwidth=\skip59
 \nprt@decimalwidth=\skip60
@@ -129,12 +121,12 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 \nprt@digittoks=\toks21
 \nprt@pretoks=\toks22
 \nprt@posttoks=\toks23
-\nprt@thisdigit=\count290
-\nprt@curpos=\count291
-\nprt@rndpos=\count292
-\c@nprt@digitsfirstblock=\count293
-\c@nprt@blockcnt=\count294
-\c@nprt@cntprint=\count295
+\nprt@thisdigit=\count278
+\nprt@curpos=\count279
+\nprt@rndpos=\count280
+\c@nprt@digitsfirstblock=\count281
+\c@nprt@blockcnt=\count282
+\c@nprt@cntprint=\count283
 
 No configuration file `numprint.cfg' found.)
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
@@ -144,7 +136,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@old@col=\dimen147
 \TX@target=\dimen148
 \TX@delta=\dimen149
-\TX@cols=\count296
+\TX@cols=\count284
 \TX@ftn=\toks24
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
@@ -220,14 +212,14 @@ libraryfiltered.code.tex
 \pgf@yd=\dimen163
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count297
-\c@pgf@countb=\count298
-\c@pgf@countc=\count299
-\c@pgf@countd=\count300
+\c@pgf@counta=\count285
+\c@pgf@countb=\count286
+\c@pgf@countc=\count287
+\c@pgf@countd=\count288
 \t@pgf@toka=\toks30
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count301
+\pgf@sys@id@count=\count289
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
@@ -246,8 +238,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count302
-\pgfsyssoftpath@bigbuffer@items=\count303
+\pgfsyssoftpath@smallbuffer@items=\count290
+\pgfsyssoftpath@bigbuffer@items=\count291
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -283,7 +275,7 @@ code.tex)
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen164
-\pgfmath@count=\count304
+\pgfmath@count=\count292
 \pgfmath@box=\box57
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
@@ -311,7 +303,7 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count305
+\c@pgfmathroundto@lastzeros=\count293
 ))
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -351,7 +343,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count306
+\pgf@picture@serial@count=\count294
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -386,8 +378,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen188
-\pgf@sys@shading@range@num=\count307
-\pgf@shadingcount=\count308
+\pgf@sys@shading@range@num=\count295
+\pgf@shadingcount=\count296
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -452,9 +444,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box64
 \tcb@lowerbox=\box65
 \tcb@phantombox=\box66
-\c@tcbbreakpart=\count309
-\c@tcblayer=\count310
-\c@tcolorbox@number=\count311
+\c@tcbbreakpart=\count297
+\c@tcblayer=\count298
+\c@tcolorbox@number=\count299
 \l__tcobox_tmpa_box=\box67
 \l__tcobox_tmpa_dim=\dimen191
 \tcb@temp=\box68
@@ -512,7 +504,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count312
+\pgf@plot@mark@count=\count300
 \pgfplotmarksize=\dimen194
 )
 \tikz@lastx=\dimen195
@@ -520,7 +512,6 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastxsaved=\dimen197
 \tikz@lastysaved=\dimen198
 \tikz@lastmovetox=\dimen199
-Normal \dimen register pool exhausted, switching to extended pool.
 \tikz@lastmovetoy=\dimen256
 \tikzleveldistance=\dimen257
 \tikzsiblingdistance=\dimen258
@@ -528,19 +519,19 @@ Normal \dimen register pool exhausted, switching to extended pool.
 \tikz@figbox@bg=\box76
 \tikz@tempbox=\box77
 \tikz@tempbox@bg=\box78
-\tikztreelevel=\count313
-\tikznumberofchildren=\count314
-\tikznumberofcurrentchild=\count315
-\tikz@fig@count=\count316
+\tikztreelevel=\count301
+\tikznumberofchildren=\count302
+\tikznumberofcurrentchild=\count303
+\tikz@fig@count=\count304
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count317
-\pgfmatrixcurrentcolumn=\count318
-\pgf@matrix@numberofcolumns=\count319
+\pgfmatrixcurrentrow=\count305
+\pgfmatrixcurrentcolumn=\count306
+\pgf@matrix@numberofcolumns=\count307
 )
-\tikz@expandcount=\count320
+\tikz@expandcount=\count308
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -577,9 +568,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count321
-\Gm@cntv=\count322
-\c@Gm@tempcnt=\count323
+\Gm@cnth=\count309
+\Gm@cntv=\count310
+\c@Gm@tempcnt=\count311
 \Gm@bindingoffset=\dimen259
 \Gm@wd@mp=\dimen260
 \Gm@odd@mp=\dimen261
@@ -596,7 +587,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
 \MT@toks=\toks42
 \MT@tempbox=\box80
-\MT@count=\count324
+\MT@count=\count312
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
 LaTeX Info: Redefining \leftprotrusion on input line 1062.
 \MT@prot@toks=\toks43
@@ -604,7 +595,7 @@ LaTeX Info: Redefining \rightprotrusion on input line 1081.
 LaTeX Info: Redefining \textls on input line 1392.
 \MT@outer@kern=\dimen267
 LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
-\MT@listname@count=\count325
+\MT@listname@count=\count313
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
 tex.def
@@ -668,8 +659,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip103
 \cftfigindent=\skip104
 \cftfignumwidth=\skip105
-\c@lofdepth=\count326
-\c@lotdepth=\count327
+\c@lofdepth=\count314
+\c@lotdepth=\count315
 \cftbeforelottitleskip=\skip106
 \cftafterlottitleskip=\skip107
 \cftbeforetabskip=\skip108
@@ -693,14 +684,19 @@ Package: multitoc 1999/06/08 v2.01 MultiToc Package (MS)
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
-\c@tracingmulticols=\count328
+\c@tracingmulticols=\count316
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+139.
+
 \mult@box=\box82
 \multicol@leftmargin=\dimen273
-\c@unbalance=\count329
-\c@collectmore=\count330
-\doublecol@number=\count331
-\multicoltolerance=\count332
-\multicolpretolerance=\count333
+\c@unbalance=\count317
+\c@collectmore=\count318
+\doublecol@number=\count319
+\multicoltolerance=\count320
+\multicolpretolerance=\count321
 \full@width=\dimen274
 \page@free=\dimen275
 \premulticols=\dimen276
@@ -751,17 +747,16 @@ Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
 \@tempa=\box123
 \@tempa=\box124
 \@tempa=\box125
-\c@minrows=\count334
-\c@columnbadness=\count335
-\c@finalcolumnbadness=\count336
+\c@minrows=\count322
+\c@columnbadness=\count323
+\c@finalcolumnbadness=\count324
 \last@try=\dimen279
 \multicolovershoot=\dimen280
 \multicolundershoot=\dimen281
 \mult@nat@firstbox=\box126
 \colbreak@box=\box127
-\mc@col@check@num=\count337
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+\mc@col@check@num=\count325
+) (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 ))
 (lib/compat.sty) (lib/dndutility.sty
@@ -774,8 +769,8 @@ File: lettrine.sty 2024-01-20 v2.60 (Daniel Flipo)
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.sty
 Package: xfp 2024-05-08 L3 Floating point unit
 )
-\c@DefaultLines=\count338
-\c@DefaultDepth=\count339
+\c@DefaultLines=\count326
+\c@DefaultDepth=\count327
 \DefaultFindent=\dimen283
 \DefaultNindent=\dimen284
 \DefaultSlope=\dimen285
@@ -783,8 +778,8 @@ Package: xfp 2024-05-08 L3 Floating point unit
 \L@lettrine=\box129
 \L@lbox=\box130
 \L@tbox=\box131
-\c@L@lines=\count340
-\c@L@depth=\count341
+\c@L@lines=\count328
+\c@L@depth=\count329
 \L@Pindent=\dimen287
 \L@Findent=\dimen288
 \L@Nindent=\dimen289
@@ -831,7 +826,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks46
 \XKV@tempa@toks=\toks47
 )
-\XKV@depth=\count342
+\XKV@depth=\count330
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -870,74 +865,7 @@ File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <10> not available
 (Font)              Font shape `T1/pbk/l/n' tried instead on input line 116.
 ))
-(lib/dndstrings.sty) (lib/dnddeprecated.sty
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/keycommand\keycommand.s
-ty
-Package: keycommand 2010/04/27 v3.1415 - key-value interface for commands and e
-nvironments in LaTeX
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
-Package: fp 1995/04/02
-
-`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
-Package: defpattern 1994/10/12
-\actioncount=\count343
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
-Package: fp-basic 1996/05/13
-\FP@xs=\count344
-\FP@xia=\count345
-\FP@xib=\count346
-\FP@xfa=\count347
-\FP@xfb=\count348
-\FP@rega=\count349
-\FP@regb=\count350
-\FP@regs=\count351
-\FP@times=\count352
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
-Package: fp-addons 1995/03/15
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
-Package: fp-snap 1995/04/05
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
-Package: fp-exp 1995/04/03
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
-Package: fp-trigo 1995/04/14
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
-Package: fp-pas 1994/08/29
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
-Package: fp-random 1995/02/23
-\FPseed=\count353
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
-Package: fp-eqn 1995/04/03
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
-Package: fp-upn 1996/10/21
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
-Package: fp-eval 1995/04/03
-))
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\xs_counta=\count354
-\xs_countb=\count355
-)
-Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-)
-\enitdp@dnd@monsterattrs=\count356
-\c@Area=\count357
-\c@SubArea=\count358
-\c@DetailArea=\count359
-) (lib/dndcomment.sty) (lib/dndheader.sty
+(lib/dndstrings.sty) (lib/dndcomment.sty) (lib/dndheader.sty
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 
@@ -951,25 +879,25 @@ Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 \f@nch@O@olf=\skip122
 \f@nch@O@orf=\skip123
 )) (lib/dndmonster.sty
-\enitdp@__dnd_monster_attributes=\count360
-\enitdp@DndMonsterSpells=\count361
-\enitdp@DndMonsterLegendaryActions=\count362
+\enitdp@__dnd_monster_attributes=\count331
+\enitdp@DndMonsterSpells=\count332
+\enitdp@DndMonsterLegendaryActions=\count333
 ) (lib/dndreadaloud.sty) (lib/dndsections.sty
-\c@DndAreaCounter=\count363
-\c@DndSubAreaCounter=\count364
+\c@DndAreaCounter=\count334
+\c@DndSubAreaCounter=\count335
 )
 (lib/dndsidebar.sty)) (lib/dndtable.sty
 \l__dnd_table_width_dim=\dimen303
 ))
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/06/02 v24.6 The Babel package
-\babel@savecnt=\count365
+\babel@savecnt=\count336
 \U@D=\dimen304
 \l@unhyphenated=\language79
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read4
-\bbl@dirlevel=\count366
+\bbl@dirlevel=\count337
 
 *************************************
 * Local config file bblopts.cfg used
@@ -1013,28 +941,28 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen312
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count367
-\c@continuedfloat=\count368
+\c@caption@flags=\count338
+\c@continuedfloat=\count339
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count369
-\l__lipsum_a_int=\count370
-\l__lipsum_b_int=\count371
+\g__lipsum_par_int=\count340
+\l__lipsum_a_int=\count341
+\l__lipsum_b_int=\count342
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count372
+\lst@mode=\count343
 \lst@gtempboxa=\box132
 \lst@token=\toks50
-\lst@length=\count373
+\lst@length=\count344
 \lst@currlwidth=\dimen313
-\lst@column=\count374
-\lst@pos=\count375
+\lst@column=\count345
+\lst@pos=\count346
 \lst@lostspace=\dimen314
 \lst@width=\dimen315
-\lst@newlines=\count376
-\lst@lineno=\count377
+\lst@newlines=\count347
+\lst@lineno=\count348
 \lst@maxwidth=\dimen316
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
@@ -1042,8 +970,8 @@ File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
-\c@lstnumber=\count378
-\lst@skipnumbers=\count379
+\c@lstnumber=\count349
+\lst@skipnumbers=\count350
 \lst@framebox=\box133
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -1054,145 +982,13 @@ Package: listings 2024/05/25 1.10b (Carsten Heinz)
 Package: shortvrb 2024/04/26 v3.0p Standard LaTeX documentation package V3 (FMi
 )
 )
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen317
-\WF@size=\dimen318
-\c@WF@wrappedlines=\count380
-\WF@box=\box134
-\WF@everypar=\toks51
-Package: wrapfig 2003/01/31  v 3.6
+(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/sttools\stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count351
+\c@dblbotnumber=\count352
 )
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
-Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
-\@enLab=\toks52
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-))
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count381
-)
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
-ty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\@linkdim=\dimen319
-\Hy@linkcounter=\count382
-\Hy@pagecounter=\count383
- (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-\Hy@SavedSpaceFactor=\count384
- (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count385
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen320
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
-))
-\Fld@menulength=\count386
-\Field@Width=\dimen321
-\Fld@charsize=\dimen322
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count387
-\c@Item=\count388
-\c@Hfootnote=\count389
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2024-05-23 v7.01i Hyperref driver for pdfTeX
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
-with kernel methods
-)
-\Fld@listcount=\count390
-\c@bookmark@seq@number=\count391
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
-)
-\Hy@SectionHShift=\skip124
-)
-Package shortvrb Info: Made  a short reference for \verb on input line 30.
+Package shortvrb Info: Made  a short reference for \verb on input line 26.
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/05/25 1.10b listings language file
@@ -1233,42 +1029,38 @@ File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
         
     so I'm assuming it got fixed.
 (lib/languages/russian.sty)
-(F:/Projects\Dungeon Master\adventures\convicts-quest\out\convicts-quest.aux)
-\openout1 = `convicts-quest.aux'.
+No file example.aux.
+\openout1 = `example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count392
-\scratchdimen=\dimen323
-\scratchbox=\box135
-\nofMPsegments=\count393
-\nofMParguments=\count394
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count395
-\MPscratchDim=\dimen324
-\MPnumerator=\count396
-\makeMPintoPDFobject=\count397
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count353
+\scratchdimen=\dimen317
+\scratchbox=\box134
+\nofMPsegments=\count354
+\nofMParguments=\count355
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count356
+\MPscratchDim=\dimen318
+\MPnumerator=\count357
+\makeMPintoPDFobject=\count358
+\everyMPtoPDFconversion=\toks52
 )
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1282,21 +1074,21 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/pbk/m/n --> TS1/pbk/b/n on input line 38.
-Package gensymb Info: Math companion symbols declared on input line 38.
-LaTeX Info: Redefining \degree on input line 38.
-LaTeX Info: Redefining \celsius on input line 38.
+(Font)                  TS1/pbk/m/n --> TS1/pbk/b/n on input line 39.
+Package gensymb Info: Math companion symbols declared on input line 39.
+LaTeX Info: Redefining \degree on input line 39.
+LaTeX Info: Redefining \celsius on input line 39.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 38.
-LaTeX Info: Redefining \ohm on input line 38.
-Package gensymb Info: Using \textohm for \ohm on input line 38.
-Package gensymb Info: Using \textmu for \micro on input line 38.
+erthousand on input line 39.
+LaTeX Info: Redefining \ohm on input line 39.
+Package gensymb Info: Using \textohm for \ohm on input line 39.
+Package gensymb Info: Using \textmu for \micro on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
@@ -1313,32 +1105,32 @@ Package gensymb Info: Using \textmu for \micro on input line 38.
 * \headsep=18.06749pt
 * \topskip=10.0pt
 * \footskip=23.12692pt
-* \marginparwidth=125.0pt
-* \marginparsep=7.0pt
+* \marginparwidth=48.0pt
+* \marginparsep=10.0pt
 * \columnsep=23.84923pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidetrue
 * \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 38.
-Package microtype Info: Applying patch `item' on input line 38.
-Package microtype Info: Applying patch `toc' on input line 38.
-Package microtype Info: Applying patch `eqnum' on input line 38.
-Package microtype Info: Applying patch `footnote' on input line 38.
-Package microtype Info: Applying patch `verbatim' on input line 38.
+LaTeX Info: Redefining \microtypecontext on input line 39.
+Package microtype Info: Applying patch `item' on input line 39.
+Package microtype Info: Applying patch `toc' on input line 39.
+Package microtype Info: Applying patch `eqnum' on input line 39.
+Package microtype Info: Applying patch `footnote' on input line 39.
+Package microtype Info: Applying patch `verbatim' on input line 39.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 38.
+LaTeX Info: Redefining \showhyphens on input line 39.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1346,47 +1138,163 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pbk' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@mv@tabular=\count398
-\c@mv@boldtabular=\count399
+\c@mv@tabular=\count359
+\c@mv@boldtabular=\count360
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
-Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count400
-Package hyperref Info: Link coloring OFF on input line 38.
-(F:/Projects\Dungeon Master\adventures\convicts-quest\auxil\convicts-quest.out)
-(F:/Projects\Dungeon Master\adventures\convicts-quest\auxil\convicts-quest.out)
-\@outlinefile=\write4
-\openout4 = `convicts-quest.out'.
+\c@lstlisting=\count361
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <17.28> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <12> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 43.
+(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 43.
+LaTeX Font Info:    Trying to load font information for TS1+pbk on input line 4
+3.
 
-LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 48.
-LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <20.74> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 48.
-LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <12> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 48.
-<img/title.png, id=98, 385.44pt x 385.44pt>
-File: img/title.png Graphic file (type png)
-<use img/title.png>
-Package pdftex.def Info: img/title.png  used on input line 52.
-(pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <8> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 57.
-LaTeX Font Info:    Trying to load font information for TS1+pbk on input line 6
-5.
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pbk.fd
 File: ts1pbk.fd 2001/06/04 font definitions for TS1/pbk.
 )
-LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <8> not available
-(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 65.
+LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <12> not available
+(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 43.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pbk' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 65
-.
+LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <8> not available
+(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <6> not available
+(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 43.
 
+
+<img/paper.jpg, id=4, 614.295pt x 794.97pt>
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 43.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 43.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 43.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+[1
+
+
+
+
+{C:/Users/tomx9/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tomx
+9/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./img/paper.jpg>]
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <24.88> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <24.88> not available
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 45.
+
+No file example.toc.
+\tf@toc=\write4
+\openout4 = `example.toc'.
+
+
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 45.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 45.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 45.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <7> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 45.
+<img/footerscroll.pdf, id=10, 596.2275pt x 42.15584pt>
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 45.
+(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
+[2
+
+
+
+ <./img/footerscroll.pdf>]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <10> not available
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 51.
+Package lettrine.sty Info: Targeted height = 41.41992pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 41.41977pt (T);
+(lettrine.sty)             reported on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 51.
+LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <10> not available
+(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 51.
+LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <7> not available
+(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 51.
+LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <5> not available
+(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 51.
+
+
+
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 53.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 53.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 53.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 53.
+(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
+[1
+
+
+
+
+]
+Chapter 2.
+Package lettrine.sty Info: Targeted height = 41.41992pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 41.41977pt (T);
+(lettrine.sty)             reported on input line 55.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <20.74> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 57.
+LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <20.74> not available
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 57.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <14.4> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <14.4> not available
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 60.
+LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <12> not available
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 63.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 66.
+LaTeX Font Info:    Font shape `T1/pbk/b/sl' in size <10> not available
+(Font)              Font shape `T1/pbk/db/sl' tried instead on input line 66.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 73
+.
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -1394,89 +1302,54 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <10> not available
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 75.
+LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <7> not available
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 75.
 
-
-<img/paper.jpg, id=100, 614.295pt x 794.97pt>
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 67.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 67.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 67.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-[1
-
-
-
-{C:/Users/tomx9/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tomx
-9/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./img/paper.jpg> 
-<./img/title.png>]
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <24.88> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <24.88> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 70.
-
-(F:/Projects\Dungeon Master\adventures\convicts-quest\out\convicts-quest.toc
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <10> not available
-(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <7> not available
-(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `TS1/pbk/m/n' in size <5> not available
-(Font)              Font shape `TS1/pbk/l/n' tried instead on input line 3.
-)
-\tf@toc=\write5
-\openout5 = `convicts-quest.toc'.
 
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 72.
+Package pdftex.def Info: img/paper.jpg  used on input line 115.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 72.
+Package pdftex.def Info: img/paper.jpg  used on input line 115.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 72.
+Package pdftex.def Info: img/paper.jpg  used on input line 115.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <7> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 72.
-<img/footerscroll.pdf, id=110, 596.2275pt x 42.15584pt>
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 72.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 115.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [2
 
- <./img/footerscroll.pdf>]
-Chapter 1.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <10> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 76.
-Package lettrine.sty Info: Targeted height = 41.41992pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 41.41977pt (T);
-(lettrine.sty)             reported on input line 76.
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <14.4> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 88.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 88.
+]
+Chapter 3.
+LaTeX Font Info:    Trying to load font information for T1+GilliusADFNoTwo-LF o
+n input line 120.
+
+(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/gillius\t1gilliusadfnot
+wo-lf.fd
+File: T1GilliusADFNoTwo-LF.fd 2013/11/03 (autoinst) Font definitions for T1/Gil
+liusADFNoTwo-LF.
+)
+LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 120.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `GilliusADFNoTwo-LF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 120.
+
+Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Trying to load font information for T1+jkpss on input line 
-104.
+126.
 (C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkpss.fd
 File: t1jkpss.fd 2007/07/16 Fontinst v1.928 font definitions for T1/jkpss.
 )
@@ -1487,498 +1360,285 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/jkpss/b/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for T1+GilliusADFNoTwo-LF o
-n input line 104.
-
-(C:\Users\tomx9\AppData\Local\Programs\MiKTeX\tex/latex/gillius\t1gilliusadfnot
-wo-lf.fd
-File: T1GilliusADFNoTwo-LF.fd 2013/11/03 (autoinst) Font definitions for T1/Gil
-liusADFNoTwo-LF.
-)
-LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 104.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `GilliusADFNoTwo-LF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 104.
-LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 106.
-
-convicts-quest.tex:114: Undefined control sequence.
-\enit@endenumerate ->\enit@after 
-                                 \endlist \ifx \enit@series \relax \else \if...
-l.114   \end{enumerate}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-convicts-quest.tex:114: Undefined control sequence.
-\enit@endenumerate ...\else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.114   \end{enumerate}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-convicts-quest.tex:114: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.114   \end{enumerate}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-convicts-quest.tex:114: Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.114   \end{enumerate}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-convicts-quest.tex:114: Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.114   \end{enumerate}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-convicts-quest.tex:114: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.114   \end{enumerate}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-convicts-quest.tex:114: Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.114   \end{enumerate}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-convicts-quest.tex:114: Undefined control sequence.
-\enit@endenumerate ...t \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.114   \end{enumerate}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-convicts-quest.tex:114: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.114   \end{enumerate}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-convicts-quest.tex:114: Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.114   \end{enumerate}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-convicts-quest.tex:114: Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.114   \end{enumerate}
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-convicts-quest.tex:114: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.114   \end{enumerate}
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <9> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 127.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/jkpss/b/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
 
 
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 120.
+Package pdftex.def Info: img/paper.jpg  used on input line 146.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 120.
+Package pdftex.def Info: img/paper.jpg  used on input line 146.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 120.
+Package pdftex.def Info: img/paper.jpg  used on input line 146.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 120.
-(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[1
-
-
-
-{C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/gillius/gls_4bsed
-w.enc}]
-Chapter 2.
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <20.74> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 122.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <20.74> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 122.
-<img/harold.jpg, id=135, 271.0125pt x 271.0125pt>
-File: img/harold.jpg Graphic file (type jpg)
-<use img/harold.jpg>
-Package pdftex.def Info: img/harold.jpg  used on input line 135.
-(pdftex.def)             Requested size: 101.17645pt x 101.17455pt.
-LaTeX Font Info:    Font shape `T1/pbk/b/sl' in size <10> not available
-(Font)              Font shape `T1/pbk/db/sl' tried instead on input line 139.
-
-Overfull \hbox (0.13483pt too wide) in paragraph at lines 140--145
-\T1/pbk/l/n/10 (+2) strong arms, al-most as if the small in-stru-ment in his ha
-nd might ac-ci-den-tally 
- []
-
-<img/yasmina.jpg, id=136, 203.25937pt x 203.25937pt>
-File: img/yasmina.jpg Graphic file (type jpg)
-<use img/yasmina.jpg>
-Package pdftex.def Info: img/yasmina.jpg  used on input line 148.
-(pdftex.def)             Requested size: 101.17645pt x 101.1766pt.
-
-Overfull \hbox (0.10455pt too wide) in paragraph at lines 154--160
-\T1/pbk/l/n/10 (+16) not ugly ei-ther, and moves as grace-fully as a cat, but t
-hey've never en-trusted 
- []
-
-<img/silgrid.jpg, id=137, 203.25937pt x 203.25937pt>
-File: img/silgrid.jpg Graphic file (type jpg)
-<use img/silgrid.jpg>
-Package pdftex.def Info: img/silgrid.jpg  used on input line 164.
-(pdftex.def)             Requested size: 101.17645pt x 101.1766pt.
-<img/sally.jpg, id=138, 203.25937pt x 203.25937pt>
-File: img/sally.jpg Graphic file (type jpg)
-<use img/sally.jpg>
-Package pdftex.def Info: img/sally.jpg  used on input line 180.
-(pdftex.def)             Requested size: 101.17645pt x 101.1766pt.
-
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 197.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 197.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 197.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 197.
-(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[2
-
-
- <./img/harold.jpg> <./img/yasmina.jpg> <./img/silgrid.jpg> <./img/sally.jpg>]
-Chapter 3.
-File: img/harold.jpg Graphic file (type jpg)
-<use img/harold.jpg>
-Package pdftex.def Info: img/harold.jpg  used on input line 202.
-(pdftex.def)             Requested size: 202.3529pt x 202.3615pt.
-
-Overfull \hbox (0.1088pt too wide) in paragraph at lines 206--221
-\T1/pbk/l/n/10 (+20) and be-ing re-ported to the guards, Harold was sen-tenced 
-
- []
-
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <12> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 221.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <12> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 221.
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <5> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 223.
-
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 230.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 230.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 230.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 230.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 146.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [3
 
+{C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/gillius/gls_4bsed
+w.enc}
+
 ]
-File: img/yasmina.jpg Graphic file (type jpg)
-<use img/yasmina.jpg>
-Package pdftex.def Info: img/yasmina.jpg  used on input line 236.
-(pdftex.def)             Requested size: 202.3529pt x 202.35942pt.
-
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 281.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 281.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 281.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 281.
-(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[4]
-File: img/silgrid.jpg Graphic file (type jpg)
-<use img/silgrid.jpg>
-Package pdftex.def Info: img/silgrid.jpg  used on input line 286.
-(pdftex.def)             Requested size: 202.3529pt x 202.35942pt.
-
-Overfull \hbox (0.13046pt too wide) in paragraph at lines 334--335
-[]\T1/pbk/l/n/10 (+15) The character strongly empathizes with the sorrow, suffe
-ring, and depression of characters within 
- []
-
-
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 341.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 341.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 341.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 341.
-(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[5]
-File: img/sally.jpg Graphic file (type jpg)
-<use img/sally.jpg>
-Package pdftex.def Info: img/sally.jpg  used on input line 347.
-(pdftex.def)             Requested size: 202.3529pt x 202.35942pt.
-
-Overfull \hbox (0.16414pt too wide) in paragraph at lines 377--378
-\T1/pbk/l/n/10 (+15) Becoming an adventurer was a clear choice for him^^Va chan
-ce for great wealth, doing good deeds, and 
- []
-
-
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 391.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 391.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 391.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 391.
-(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[6]
 Chapter 4.
-\c@act_num=\count401
-\c@subact_num=\count402
-LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 417.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+LaTeX Font Info:    Font shape `T1/pbk/b/sc' in size <10> not available
+(Font)              Font shape `T1/pbk/db/sc' tried instead on input line 149.
+LaTeX Font Info:    Font shape `T1/pbk/b/sc' in size <17.28> not available
+(Font)              Font shape `T1/pbk/db/sc' tried instead on input line 149.
+LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 151.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <9> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 158.
+LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/m/sl' in size <9> not ava
+ilable
+(Font)              Font shape `T1/GilliusADFNoTwo-LF/m/it' tried instead on in
+put line 181.
+LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 181.
+LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/b/sl' in size <9> not ava
+ilable
+(Font)              Font shape `T1/GilliusADFNoTwo-LF/b/it' tried instead on in
+put line 181.
+LaTeX Font Info:    Font shape `T1/GilliusADFNoTwo-LF/b/it' will be
+(Font)              scaled to size 9.0pt on input line 181.
 
-Overfull \hbox (0.18451pt too wide) in paragraph at lines 442--445
-[]\T1/pbk/l/n/10 (+1) Let the players RP and chat (in character) in front of th
-e office building. Norman will give suggestions 
+Underfull \hbox (badness 10000) in paragraph at lines 181--184
+\T1/GilliusADFNoTwo-LF/b/it/9 Innate Spell-cast-ing. \T1/GilliusADFNoTwo-LF/m/n
+/9 Foo's spell-cast-ing abil-ity is Charisma (spell
  []
 
-Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--184
+\T1/GilliusADFNoTwo-LF/m/n/9 save DC 12, +4 to hit with spell at-tacks). It can
+ in-nately cast the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
+\T1/GilliusADFNoTwo-LF/b/it/9 Spellcasting. \T1/GilliusADFNoTwo-LF/m/n/9 Foo is
+ a 2nd-level spell-caster. Its spell-cast-ing abil-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
+\T1/GilliusADFNoTwo-LF/m/n/9 is Charisma (spell save DC 12, +4 to hit with spel
+l at-tacks). It has
+ []
+
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/jkpss/m/sc/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/jkpss/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+\T1/GilliusADFNoTwo-LF/b/it/9 Dagger. \T1/GilliusADFNoTwo-LF/m/it/9 Melee or Ra
+nged Weapon At-tack: \T1/GilliusADFNoTwo-LF/m/n/9 +3 to hit, reach 5 ft.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+\T1/GilliusADFNoTwo-LF/b/it/9 Flame Tongue Longsword. \T1/GilliusADFNoTwo-LF/m/
+it/9 Melee Weapon At-tack: \T1/GilliusADFNoTwo-LF/m/n/9 +3 to hit,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+\T1/GilliusADFNoTwo-LF/m/n/9 reach 5 ft., one tar-get. \T1/GilliusADFNoTwo-LF/m
+/it/9 Hit: \T1/GilliusADFNoTwo-LF/m/n/9 5 (1d8 + 1) slash-ing dam-age, or 6
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+\T1/GilliusADFNoTwo-LF/m/n/9 (1d10 + 1) slash-ing dam-age if used with two hand
+s, plus 7 (2d6)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+\T1/GilliusADFNoTwo-LF/b/it/9 Assassin's Light Cross-bow. \T1/GilliusADFNoTwo-L
+F/m/it/9 Ranged Weapon At-tack: \T1/GilliusADFNoTwo-LF/m/n/9 +1 to hit,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+\T1/GilliusADFNoTwo-LF/m/n/9 range 80/320 ft., one tar-get. \T1/GilliusADFNoTwo
+-LF/m/it/9 Hit: \T1/GilliusADFNoTwo-LF/m/n/9 4 (1d8) pierc-ing dam-age,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+\T1/GilliusADFNoTwo-LF/m/n/9 and the tar-get must make a DC 15 Con-sti-tu-tion 
+sav-ing throw,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+\T1/GilliusADFNoTwo-LF/m/n/9 tak-ing 24 (7d6) poi-son dam-age on a failed save,
+ or half as much
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+\T1/GilliusADFNoTwo-LF/m/n/9 The foo can take 3 leg-endary ac-tions, choos-ing 
+from the op-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+\T1/GilliusADFNoTwo-LF/m/n/9 be-low. Only one leg-endary ac-tion op-tion can be
+ used at a time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+\T1/GilliusADFNoTwo-LF/m/n/9 and only at the end of an-other crea-ture's turn. 
+The foo re-gains
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+[]\T1/GilliusADFNoTwo-LF/m/n/9 The foo presents a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/GilliusADFNoTwo-LF/m/n/9 con-tract in a lan-guage it knows and waves it in 
+the face of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/GilliusADFNoTwo-LF/m/n/9 a crea-ture within 10 feet. The crea-ture must mak
+e a DC
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/GilliusADFNoTwo-LF/m/n/9 10 In-tel-li-gence sav-ing throw. On a fail-ure, t
+he crea-ture is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/GilliusADFNoTwo-LF/m/n/9 in-ca-pac-i-tated un-til the start of the foo's ne
+xt turn. A crea-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/GilliusADFNoTwo-LF/m/n/9 who can-not read the lan-guage in which the con-tr
+act is writ-ten
+ []
+
+
+
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 465.
+Package pdftex.def Info: img/paper.jpg  used on input line 261.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 465.
+Package pdftex.def Info: img/paper.jpg  used on input line 261.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 465.
+Package pdftex.def Info: img/paper.jpg  used on input line 261.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 465.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 261.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[7
+[4
+
 
 ]
-Missing character: There is no ; in font nullfont!
-
-convicts-quest.tex:482: LaTeX Error: Lonely \item--perhaps a missing list envir
-onment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.482 \item L
-             ater, they see how the patrol catches a thief right on the stre...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 506.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 506.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 506.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 506.
-(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[8]
 Chapter 5.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/jkpss/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+
+LaTeX Warning: \verb may be unreliable inside tabularx on input line 276.
 
 
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 510.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 510.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 510.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 510.
-(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[9
+LaTeX Warning: Reference `tab:colors' on page 5 undefined on input line 289.
 
-]
-Chapter 6.
+
+
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 512.
+Package pdftex.def Info: img/paper.jpg  used on input line 344.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 512.
+Package pdftex.def Info: img/paper.jpg  used on input line 344.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 512.
+Package pdftex.def Info: img/paper.jpg  used on input line 344.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 512.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 344.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[10
+[5
 
-]
-(F:/Projects\Dungeon Master\adventures\convicts-quest\out\convicts-quest.aux)
+] (F:/Projects\Dungeon Master\adventures\convicts-quest\auxil\example.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
-Package rerunfilecheck Info: File `convicts-quest.out' has not changed.
-(rerunfilecheck)             Checksum: 4F42B2CF07D8B6BEA84E4064AF5F4981;3062.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 35775 strings out of 473920
- 704914 string characters out of 5726974
- 1951908 words of memory out of 5000000
- 57641 multiletter control sequences out of 15000+600000
- 621690 words of font info for 211 fonts, out of 8000000 for 9000
+ 29212 strings out of 473920
+ 595110 string characters out of 5726974
+ 2044908 words of memory out of 5000000
+ 51200 multiletter control sequences out of 15000+600000
+ 662937 words of font info for 275 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 121i,18n,138p,1013b,1275s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 121i,18n,138p,1006b,2276s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/arkandis/gillius/Gi
 lliusADFNo2-Bold.pfb><C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/
-arkandis/gillius/GilliusADFNo2-Regular.pfb><C:/Users/tomx9/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/initials/RoyalIn.pfb><C:/Users/tomx9/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/tomx9/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpssbsc8a.pfb><C:/Users/to
-mx9/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Users/
-tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb><C:/User
-s/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkl8a.pfb><C:/Us
-ers/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on "F:/Projects\Dungeon Master\adventures\convicts-quest\out\con
-victs-quest.pdf" (12 pages, 2226267 bytes).
+arkandis/gillius/GilliusADFNo2-BoldItalic.pfb><C:/Users/tomx9/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/arkandis/gillius/GilliusADFNo2-Italic.pfb><C:/Users/to
+mx9/AppData/Local/Programs/MiKTeX/fonts/type1/arkandis/gillius/GilliusADFNo2-Re
+gular.pfb><C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/public/init
+ials/RoyalIn.pfb><C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/kpfonts/jkpssbsc8a.pfb><C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/kpfonts/jkpssmsc8a.pfb><C:/Users/tomx9/AppData/Local/Programs/MiKTe
+X/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Users/tomx9/AppData/Local/Programs/MiK
+TeX/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Users/tomx9/AppData/Local/Programs/M
+iKTeX/fonts/type1/urw/bookman/ubkl8a.pfb><C:/Users/tomx9/AppData/Local/Programs
+/MiKTeX/fonts/type1/urw/bookman/ubkli8a.pfb><C:/Users/tomx9/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/tomx9/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on "F:/Projects\Dungeon Master\adventures\convicts-quest\out\exa
+mple.pdf" (7 pages, 1794628 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 88296 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 100 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 128535 words of extra memory for PDF output out of 154059 (max. 10000000)
 
