@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.14)  20 JUN 2024 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.14)  20 JUN 2024 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1537,17 +1537,17 @@ LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <20.74> not available
 (Font)              Font shape `T1/pbk/l/n' tried instead on input line 149.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <20.74> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 149.
-<img/harold.jpg, id=167, 271.0125pt x 271.0125pt>
-File: img/harold.jpg Graphic file (type jpg)
-<use img/harold.jpg>
-Package pdftex.def Info: img/harold.jpg  used on input line 162.
+<img/characters/harold.jpg, id=167, 271.0125pt x 271.0125pt>
+File: img/characters/harold.jpg Graphic file (type jpg)
+<use img/characters/harold.jpg>
+Package pdftex.def Info: img/characters/harold.jpg  used on input line 162.
 (pdftex.def)             Requested size: 101.17645pt x 101.17455pt.
 LaTeX Font Info:    Font shape `T1/pbk/b/sl' in size <10> not available
 (Font)              Font shape `T1/pbk/db/sl' tried instead on input line 166.
-<img/yasmina.jpg, id=168, 203.25937pt x 203.25937pt>
-File: img/yasmina.jpg Graphic file (type jpg)
-<use img/yasmina.jpg>
-Package pdftex.def Info: img/yasmina.jpg  used on input line 175.
+<img/characters/yasmina.jpg, id=168, 203.25937pt x 203.25937pt>
+File: img/characters/yasmina.jpg Graphic file (type jpg)
+<use img/characters/yasmina.jpg>
+Package pdftex.def Info: img/characters/yasmina.jpg  used on input line 175.
 (pdftex.def)             Requested size: 101.17645pt x 101.1766pt.
 
 Overfull \hbox (0.11414pt too wide) in paragraph at lines 181--182
@@ -1555,15 +1555,15 @@ Overfull \hbox (0.11414pt too wide) in paragraph at lines 181--182
 lech-er-ous no-ble-man, 
  []
 
-<img/silgrid.jpg, id=169, 203.25937pt x 203.25937pt>
-File: img/silgrid.jpg Graphic file (type jpg)
-<use img/silgrid.jpg>
-Package pdftex.def Info: img/silgrid.jpg  used on input line 189.
+<img/characters/silgrid.jpg, id=169, 203.25937pt x 203.25937pt>
+File: img/characters/silgrid.jpg Graphic file (type jpg)
+<use img/characters/silgrid.jpg>
+Package pdftex.def Info: img/characters/silgrid.jpg  used on input line 189.
 (pdftex.def)             Requested size: 101.17645pt x 101.1766pt.
-<img/sally.jpg, id=170, 203.25937pt x 203.25937pt>
-File: img/sally.jpg Graphic file (type jpg)
-<use img/sally.jpg>
-Package pdftex.def Info: img/sally.jpg  used on input line 203.
+<img/characters/sally.jpg, id=170, 203.25937pt x 203.25937pt>
+File: img/characters/sally.jpg Graphic file (type jpg)
+<use img/characters/sally.jpg>
+Package pdftex.def Info: img/characters/sally.jpg  used on input line 203.
 (pdftex.def)             Requested size: 101.17645pt x 101.1766pt.
 
 
@@ -1586,11 +1586,12 @@ Package pdftex.def Info: img/footerscroll.pdf  used on input line 218.
 [2
 
 
- <./img/harold.jpg> <./img/yasmina.jpg> <./img/silgrid.jpg> <./img/sally.jpg>]
+ <./img/characters/harold.jpg> <./img/characters/yasmina.jpg> <./img/characters
+/silgrid.jpg> <./img/characters/sally.jpg>]
 Chapter 3.
-File: img/harold.jpg Graphic file (type jpg)
-<use img/harold.jpg>
-Package pdftex.def Info: img/harold.jpg  used on input line 223.
+File: img/characters/harold.jpg Graphic file (type jpg)
+<use img/characters/harold.jpg>
+Package pdftex.def Info: img/characters/harold.jpg  used on input line 223.
 (pdftex.def)             Requested size: 202.3529pt x 202.3615pt.
 
 Overfull \hbox (0.11284pt too wide) in paragraph at lines 237--240
@@ -1630,9 +1631,9 @@ Package pdftex.def Info: img/footerscroll.pdf  used on input line 256.
 [3
 
 ]
-File: img/yasmina.jpg Graphic file (type jpg)
-<use img/yasmina.jpg>
-Package pdftex.def Info: img/yasmina.jpg  used on input line 262.
+File: img/characters/yasmina.jpg Graphic file (type jpg)
+<use img/characters/yasmina.jpg>
+Package pdftex.def Info: img/characters/yasmina.jpg  used on input line 262.
 (pdftex.def)             Requested size: 202.3529pt x 202.35942pt.
 
 
@@ -1653,9 +1654,9 @@ File: img/footerscroll.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/footerscroll.pdf  used on input line 313.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [4]
-File: img/silgrid.jpg Graphic file (type jpg)
-<use img/silgrid.jpg>
-Package pdftex.def Info: img/silgrid.jpg  used on input line 318.
+File: img/characters/silgrid.jpg Graphic file (type jpg)
+<use img/characters/silgrid.jpg>
+Package pdftex.def Info: img/characters/silgrid.jpg  used on input line 318.
 (pdftex.def)             Requested size: 202.3529pt x 202.35942pt.
 
 Overfull \hbox (0.13046pt too wide) in paragraph at lines 366--367
@@ -1682,9 +1683,9 @@ File: img/footerscroll.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/footerscroll.pdf  used on input line 373.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [5]
-File: img/sally.jpg Graphic file (type jpg)
-<use img/sally.jpg>
-Package pdftex.def Info: img/sally.jpg  used on input line 379.
+File: img/characters/sally.jpg Graphic file (type jpg)
+<use img/characters/sally.jpg>
+Package pdftex.def Info: img/characters/sally.jpg  used on input line 379.
 (pdftex.def)             Requested size: 202.3529pt x 202.35942pt.
 
 Overfull \hbox (0.19534pt too wide) in paragraph at lines 398--403
@@ -1822,11 +1823,11 @@ Overfull \hbox (0.1219pt too wide) in paragraph at lines 619--627
 ng char-ac-ter or the one with the high-est per-cep-tion 
  []
 
-<img/dm_ruined_temple_map_19x19.png, id=233, 1333.98375pt x 1333.98375pt>
-File: img/dm_ruined_temple_map_19x19.png Graphic file (type png)
-<use img/dm_ruined_temple_map_19x19.png>
-Package pdftex.def Info: img/dm_ruined_temple_map_19x19.png  used on input line
- 638.
+<img/maps/dm_ruined_temple_map_19x19.png, id=233, 1333.98375pt x 1333.98375pt>
+File: img/maps/dm_ruined_temple_map_19x19.png Graphic file (type png)
+<use img/maps/dm_ruined_temple_map_19x19.png>
+Package pdftex.def Info: img/maps/dm_ruined_temple_map_19x19.png  used on input
+ line 638.
 (pdftex.def)             Requested size: 505.89pt x 505.881pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1867,144 +1868,146 @@ File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
 Package pdftex.def Info: img/footerscroll.pdf  used on input line 647.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[11 <./img/dm_ruined_temple_map_19x19.png>]
+[11 <./img/maps/dm_ruined_temple_map_19x19.png>]
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <9> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 680.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <9> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 684.
+
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 671.
+Package pdftex.def Info: img/paper.jpg  used on input line 769.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 671.
+Package pdftex.def Info: img/paper.jpg  used on input line 769.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 671.
+Package pdftex.def Info: img/paper.jpg  used on input line 769.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 671.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 769.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [12]
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <9> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 683.
-LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <9> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 687.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 768.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 768.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 768.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 768.
-(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[13]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (0.13812pt too wide) in paragraph at lines 801--802
+Overfull \hbox (0.13812pt too wide) in paragraph at lines 803--804
 []\T1/pbk/l/n/10 (+12) In case players didn't visit the living quarters (3.), w
 hen troglodytes finish their meal, they will come to 
  []
 
 
-Overfull \hbox (0.11314pt too wide) in paragraph at lines 821--826
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 807.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 807.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 807.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 807.
+(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
+[13]
+Overfull \hbox (0.11314pt too wide) in paragraph at lines 823--828
 \T1/pbk/l/n/10 (+12) the east side of the room. Sil-grid or re-li-gion check DC
  13 re-veals that this was a tem-ple to the god-dess 
  []
 
-
-
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 836.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 836.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/paper.jpg Graphic file (type jpg)
-<use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 836.
-(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
-File: img/footerscroll.pdf Graphic file (type pdf)
-<use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 836.
-(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[14]
 Missing character: There is no ; in font nullfont!
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 881.
+Package pdftex.def Info: img/paper.jpg  used on input line 878.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 881.
+Package pdftex.def Info: img/paper.jpg  used on input line 878.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 881.
+Package pdftex.def Info: img/paper.jpg  used on input line 878.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 881.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 878.
+(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
+[14]
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 883.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 883.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 883.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 883.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [15]
 Chapter 5.
+<img/maps/ruined_temple_map_19x19.png, id=284, 1333.98375pt x 1333.98375pt>
+File: img/maps/ruined_temple_map_19x19.png Graphic file (type png)
+<use img/maps/ruined_temple_map_19x19.png>
+Package pdftex.def Info: img/maps/ruined_temple_map_19x19.png  used on input li
+ne 887.
+(pdftex.def)             Requested size: 505.89pt x 505.881pt.
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 885.
+Package pdftex.def Info: img/paper.jpg  used on input line 888.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 885.
+Package pdftex.def Info: img/paper.jpg  used on input line 888.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 885.
+Package pdftex.def Info: img/paper.jpg  used on input line 888.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 885.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 888.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [16
 
-]
+ <./img/maps/ruined_temple_map_19x19.png>]
 Chapter 6.
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 887.
+Package pdftex.def Info: img/paper.jpg  used on input line 890.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 887.
+Package pdftex.def Info: img/paper.jpg  used on input line 890.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 887.
+Package pdftex.def Info: img/paper.jpg  used on input line 890.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 887.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 890.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [17
 
@@ -2013,17 +2016,24 @@ Package pdftex.def Info: img/footerscroll.pdf  used on input line 887.
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
-Package rerunfilecheck Info: File `convicts-quest.out' has not changed.
-(rerunfilecheck)             Checksum: E4897CF72B4E5472B6C2C957121A2A76;4293.
+
+
+Package rerunfilecheck Warning: File `convicts-quest.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `convicts-quest.out':
+(rerunfilecheck)             Before: E4897CF72B4E5472B6C2C957121A2A76;4293
+(rerunfilecheck)             After:  D85450FFA6CA701C0BA6399EF27AEC8D;4477.
  ) 
 Here is how much of TeX's memory you used:
- 35941 strings out of 473920
- 707821 string characters out of 5726974
- 1956908 words of memory out of 5000000
- 57747 multiletter control sequences out of 15000+600000
+ 35951 strings out of 473920
+ 708864 string characters out of 5726974
+ 1957908 words of memory out of 5000000
+ 57756 multiletter control sequences out of 15000+600000
  629800 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 121i,19n,138p,1205b,1292s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 121i,19n,138p,1205b,1389s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/arkandis/gillius/Gi
 lliusADFNo2-Bold.pfb><C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/
 arkandis/gillius/GilliusADFNo2-BoldItalic.pfb><C:/Users/tomx9/AppData/Local/Pro
@@ -2038,9 +2048,9 @@ bookman/ubkl8a.pfb><C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1/ur
 w/bookman/ubkli8a.pfb><C:/Users/tomx9/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/courier/ucrr8a.pfb>
 Output written on C:/Projects\adventures\convicts-quest\out\convicts-quest.pdf 
-(19 pages, 2785086 bytes).
+(19 pages, 3231460 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 99133 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 99138 words of extra memory for PDF output out of 106986 (max. 10000000)
 
