@@ -22,8 +22,22 @@
 \usepackage{wrapfig}
 \usepackage{enumerate}
 \usepackage{graphicx}
-\usepackage{hyperref}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue,
+            urlbordercolor = blue,
+            pdfborderstyle={/S/U/W 1}]{hyperref}
 \usepackage{parskip}
+
+%\hypersetup{
+%    colorlinks=true,
+%    linkcolor=blue,
+%    filecolor=magenta,
+%    urlcolor=cyan,
+%    }
+
 
 
 %\captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
@@ -549,6 +563,7 @@ If you'd notice players thirst for combat you can start with the "Swarm of bats"
 Improvise the conversation.
 Lyra will ask the group to help her find her father who went to Undermountain and hasn't returned yet.
 She offers 500 gold to bring her father (alive).
+Lyra describes him as sixty-year old man with a grey beard and short hair, wearing a breastplate with a family crest and a scimitar with a blue gemstone in the hilt.
 Lyra lends the group her mother's ring which is showing the way to the secret door within the Undermountain's dungeon level.
 She explains that her father's crew used to go through the concealed door to their fortune hunting expeditions.
 During the conversation with Lyra, another person comes to their table.
@@ -560,9 +575,9 @@ Lyra will say that she will be waiting here or at her mansion in the Sea Ward (L
 
 \subsubsection{Norman's contact}
 \begin{DndReadAloud}
-  Norman returns to the table with a middle-aged man (brown hair cut by a pot) with sleepy eyes and brown tight fit tailored clothes.
+  Norman returns to the table with a middle-aged man (brown hair cut by a pot) with sleepy eyes and brown tight-fit tailored clothes.
 
-  "This is my contact I told you about, Arnold, he has a job for us."
+  "This is my contact I told you about, Arnold; he has a job for us."
 
   Arnold bows slightly and says:
   "Greetings, I am Arnold Fenxis, I need someone to walk through a building and make sure it's safe and clear of any potential unwanted guests.
@@ -574,7 +589,7 @@ Lyra will say that she will be waiting here or at her mansion in the Sea Ward (L
 \end{DndReadAloud}
 He's interested in buying the house from the city (soon to be forfeited to the city as probate expires), but he needs to make sure it's safe first.
 House is supposed to be haunted, but he doesn't believe in ghosts.
-He can be found in Yawning Portal usually or leave a message with Durnan (the barkeep).
+He usually drinks at the Yawning Portal, or you can leave a message with Durnan (the barkeep).
 
 \subsubsection{Swarm of bats}
 If players refuse all the quests and nothing is happening for a long time three
@@ -594,10 +609,10 @@ It points to the west door.
 \subsubsection{Going through the dungeon level}
 You can share the following information with the players or describe it to them as you see fit.
 Characters are entering a first level of Undermountain.
-It's characteristic by its labyrinthine corridors, many hidden chambers, and deadly traps laid by other creatures.
-It is inhabited by a mix of creatures, including goblinoids, undead or magical beasts.
+It's characteristic of its labyrinthine corridors, many hidden chambers, and deadly traps laid by other creatures.
+A mix of creatures, including goblinoids, undead or magical beasts, inhabits this place.
 \begin{DndReadAloud}
-Place is dark and damp, crumbling stone walled corridors changes to natural cavernous tunnels twists and turns, sometimes leading to dead ends.
+The Place is dark and damp, crumbling stone-walled corridors changes to natural cavernous tunnels twists and turns, sometimes leading to dead ends.
 Occasionally they can hear the sound of water dripping from upper city's sewage system, or the echo of a distant scream or bestial growl.
 \end{DndReadAloud}
 \subsubsection{On the way to the secret door}
@@ -615,14 +630,21 @@ It's a group of high elves:
   \item Archer - \href{https://www.dndbeyond.com/monsters/17007-scout}{Scout}
 \end{itemize}
 
-If you really need a combat encounter make them hostile \href{https://www.dndbeyond.com/monsters/17133-drow}{4x Drow}
+If you really need a combat encounter, make them hostile \href{https://www.dndbeyond.com/monsters/17133-drow}{4x Drow}
 (one per player) on the slave hunt and attack the group - trying to capture them and not kill them.
 
-\subsubsection{Concealed shrine}
-At one corridor ring points to the wall, but you cannot see any door.
-Simply pushing the wall will open a secret door leading to a small antechamber but as they do,
+\subsubsection{Concealed temple}
+DM map
+\includegraphics[width=1\textwidth]{img/dm_ruined_temple_map_19x19}
+
+The map was made with: \href{https://probabletrain.itch.io/dungeon-scrawl}{Dungeon Scrawl}.
+
+In one corridor the ring points to the wall, but you cannot see any door.
+Simply pushing the wall will open a secret door leading to a small antechamber, but as they do,
 unless they do it very slowly, a rattling of bones can be heard as the door opens.
 Behind the door were hung bones of various creatures on a sinuous string which rattles if the door is opened.
+\vfill
+\newpage
 
 \DndArea{Antechamber}
 The original dwarven stonework of the entrance and the interior are almost crumbled now.
@@ -639,11 +661,11 @@ Perception DC 15+ reveals a few big bat-like creatures hanging on the ceiling wa
 On failed check \href{https://www.dndbeyond.com/monsters/17023-stirge}{four stirges} will have a surprise round.
 
 \DndArea{Storage}
-Storage room is covered with crimson crystalline fungi-like growths.
-At the far end of the room, there are few crumbling chests also covered by crystalline mould, there might be something inside.
+The storage room is covered with crimson crystalline fungi-like growths.
+At the far end of the room, there are few crumbling chests also covered by crystalline mould; there might be something inside.
 Moving through means that players are risking to get infected by the mould.
 On touch crystalline structure shatters, and splinters may hit the character (DC 12 DEX saving throw).
-If the splinter it touches their skin, they will have to make a DC 12 CON save or get infected by "Bloodborne Disease".
+If the splinter it touches their skin, they will have to make a DC 12 CON save or get infected by \textbf{"Bloodborne Disease"}.
 
 \vfill
 \newpage
@@ -747,18 +769,105 @@ It can be traced probably to Thanatos, the Belly of Death, layer of Abyss.
 
 Investigation skill check DC 10 while actively looking at the walls and far west corner reveals a potential hidden way.
 \begin{DndReadAloud}
-Five feet above floor is a hole leading to another room, but it's covered by the same crimson crystalline mould.
+Five feet above the floor is a hole leading to another room, but it's covered by the same crimson crystalline mould.
 You can hear some kind of growling and guttural language from the other side and see faint flickers of light.
 \end{DndReadAloud}
+This secret passage leads straight to the main temple room (5.B).
 
 Players can get to the chests and find 3lb of silver (bricks), 24lb of copper ingots.
-Every other material that might have been there (food, fabrics or leather ) seems to be decayed or destroyed by the mould.
+Every other material that might have been there (food, fabrics or leather) seems to be decayed or destroyed by the mould.
 \DndArea{Living quarters}
-\DndArea{Shrine}
+This room used to be a living quarters as you notice some broken wooden beds and destroyed simple chests.
+Fresh blood and fresh dung, some of it on the walls covers the room, and the smell becoming even more aggressive.
+Gnawed bones and skulls of various creatures lie scattered around the room.
+And you see two tall lizard-like creatures \textbf{(two \href{https://www.dndbeyond.com/monsters/17204-troglodyte}{troglodyte})} eating the legs and hands of a humanoid.
+They're aggressive and will attack the party.
+When slain players can wade through the filth and in the room and find:
+\begin{itemize}
+  \item golden ring
+  \item golden necklace
+  \item 20 gold pieces
+\end{itemize}
+\DndArea{Temple}
 \DndSubArea{Corridor}
-\DndSubArea{Main Room}
+\begin{DndReadAloud}
+At the end of the corridor, you see a large door leading to a larger room.
+The door barricaded from your side, indicates the last futile fight of men lying at the base of the door frame.
+The half-eaten bodies (missing hands and legs) of a humans (Lyra's father and his companion).
+A ring, almost identical to Lyra's, on a chain hangs from the neck of one of the remains of men with breastplate
+with a Lessoir family crest, his scimitar with a blue gemstone in the hilt lies nearby.
+You can hear some kind of growling and guttural language from the other side.
+\end{DndReadAloud}
+In case players didn't visit the living quarters (3.), when troglodytes finish their meal, they will come to the corridor and attack the party.
 
-Map made with \href{https://probabletrain.itch.io/dungeon-scrawl}{Dungeon Scrawl}.
+Players can find few items, by the door:
+\begin{itemize}
+  \item Breastplate with a Lessoir family crest
+  \item scimitar with a blue gemstone in the hilt
+  \item short sword
+  \item healing potion
+  \item magical scroll of first level (choose something players can use ot want ideally)
+\end{itemize}
+Opening the barricaded door requires a DC 14 STR check or by using some tools to cut through the old door.
+\begin{itemize}
+  \item Failed check will result in a loud noise attracting the troglodytes inside.
+A fiery explosion opens the door, players can make DEX saving throw DC 13 to avoid the 1d10 fire damage (half on success)
+  as troglodyte shaman casts a spell on the door.
+  Combat starts with \textbf{\href{https://www.dndbeyond.com/monsters/17278-kobold-scale-sorcerer}{troglodyte shaman}}
+  and two \textbf{\href{https://www.dndbeyond.com/monsters/17204-troglodyte}{troglodyte warriors}}.
+  \item Success means prying the door open with minimal noise.
+  \end{itemize}
+\DndSubArea{Main Room}\label{subsec:main-teple-room}
+Entering a room with a wide hole in the middle reveals a stunning view.
+A pinnacle of filthiness and decay, almost unbearable stench fills the room.
+Blood dripping from the ceiling above the pit, walls smeared with it.
+From the hole, a crimson crystalline mould grows and spreads on the walls towards the east side of the room.
+Silgrid or religion check DC 13 reveals that this was a temple to the goddess Shar.
+
+If players came quietly, they might see a lizard-like shaman performing a blasphemous
+sacrificial ritual at the far end of the circular room.
+An archer in leather armor (unconscious), lying on a flat stone altar as the shaman chanting in guttural voice.
+If interrupted, combat starts with \href{https://www.dndbeyond.com/monsters/17278-kobold-scale-sorcerer}{troglodyte shaman}
+and two \href{https://www.dndbeyond.com/monsters/17204-troglodyte}{troglodyte warriors}.
+Unless players react immediately, the shaman finishes the ritual and the archer dies.
+If rescued, the archer thanks the party and offers his help to get out of this place.
+Improvise his story about how he came for one last treasure hunt with his companions (including Lyra's father),
+as the troglodytes ambushed them.
+
+If archer dies, they can loot his body, or if rescued, he will give them:
+\begin{itemize}
+  \item leather armor
+  \item shortbow
+  \item 20 arrows
+\end{itemize}
+Somewhere in the room, players can find a small black box.
+It's locked with magical lock.
+Each lock is decorated with a different animal.
+\begin{DndReadAloud}
+On the top of the box, there are four keyholes, each with a different animal decoration.\\
+The first lock has a dog, the second has two mice, the third has three cats, and the fourth has a spider.\\
+You have four keys with it on a chain.
+\end{DndReadAloud}
+Players have to look at the keys and count the teeth to find the right key for each lock, each word represents the
+number of teeth of the keys.
+If they fail to insert the right key, a monster corresponding to the wrong slot will pop up.
+
+Four locks
+\begin{itemize}
+\item 3 letters; Dog; summons \href{https://www.dndbeyond.com/monsters/16809-blink-dog}{a blink dog}
+\item 4 letters; Mice (two mice); summons \href{https://www.dndbeyond.com/monsters/16976-panther}{two panthers}
+\item 5 letters; snake; summons \href{https://www.dndbeyond.com/monsters/16890-giant-poisonous-snake}{a giant poisonous snake}
+\item 6 letters; spider; summons \href{https://www.dndbeyond.com/monsters/16895-giant-spider}{a giant spider}
+\end{itemize}
+
+If solved, the box opens and reveals a document \textbf{claim of a "Trollskull Mansion"} which enables the owner to
+claim the building for a fee at Waterdeep office.\\
+Trollskull mansion is a historical building and haunted house in the North Ward of Waterdeep.
+
+
+
+
+
 
 
 
